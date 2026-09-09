@@ -8,7 +8,7 @@ The objective of this project is to demonstrate how automated testing can be int
 
 Whenever code is pushed to the repository or a Pull Request is created, **GitHub Actions automatically runs the unit tests** to verify that the code works correctly.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Git
