@@ -2,7 +2,7 @@
 
 A simple Python calculator project created to demonstrate **Git, GitHub, GitHub Actions, automated testing, branching, pull requests, and code review** as part of a Software Engineering practical demonstration.
 
-## 📌 Project Objective
+##  Project Objective
 
 The objective of this project is to demonstrate how automated testing can be integrated into a GitHub development workflow.
 
@@ -16,7 +16,7 @@ Whenever code is pushed to the repository or a Pull Request is created, **GitHub
 * GitHub Actions
 * Pytest
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 calculator-github-actions/
@@ -30,14 +30,14 @@ calculator-github-actions/
         └── test.yml
 ```
 
-## 🧮 Calculator Functions
+## Calculator Functions
 
 The calculator currently supports:
 
 * Addition
 * Subtraction
 * Multiplication
-* Division
+
 
 Example:
 
@@ -45,10 +45,9 @@ Example:
 add(2, 3)
 subtract(5, 3)
 multiply(4, 3)
-divide(10, 2)
 ```
 
-## 🧪 Automated Testing
+## Automated Testing
 
 The project uses **pytest** for unit testing.
 
@@ -64,7 +63,7 @@ A successful test run looks like:
 3 passed
 ```
 
-## ⚙️ GitHub Actions
+## GitHub Actions
 
 The workflow is stored in:
 
@@ -84,7 +83,7 @@ The workflow runs whenever:
 * Code is pushed to `main`.
 * A Pull Request is opened against `main`.
 
-## ❌ Failure Demonstration
+## Failure Demonstration
 
 As part of the practical demonstration, an intentional error is introduced into the calculator code.
 
@@ -108,7 +107,7 @@ the tests pass successfully.
 
 This demonstrates how **Continuous Integration (CI)** can detect errors before code is merged.
 
-## 🌿 Git Branching Workflow
+## Git Branching Workflow
 
 The project uses feature branches for development.
 
@@ -135,7 +134,7 @@ main
                 Merge
 ```
 
-## 🔀 Pull Request & Code Review
+## Pull Request & Code Review
 
 New features are developed on separate branches and submitted through Pull Requests.
 
@@ -146,7 +145,7 @@ Before merging:
 * Review comments can be added.
 * The Pull Request can be approved and merged after successful checks.
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates practical understanding of:
 
@@ -161,7 +160,7 @@ This project demonstrates practical understanding of:
 * Continuous Integration
 * Detecting and fixing failed tests
 
-## 👩‍💻 Author
+## Author
 
 **Huma**,
 **Dhruv Jagadeesh**,
